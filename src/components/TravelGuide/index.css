@@ -1,0 +1,34 @@
+.main-container {
+  background-color: #eef4f7;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.travel-guide-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  border-bottom: 2px solid #52bbf0;
+  margin-bottom: 15px;
+}
+.loading-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.travel-guide-container {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
